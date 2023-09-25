@@ -1,12 +1,18 @@
 .contenedor-principal {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   width: 350px;
-  height: 500px;
-  background-color: rgb(185, 238, 78);
+  min-height: 500px;
+  background-color: rgb(17, 72, 145);
   margin: 50px auto;
   border-radius: 30px;
   border: 10px solid white;
+}
+
+.fila {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  width: 100%;
 }

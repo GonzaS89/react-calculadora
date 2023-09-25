@@ -1,10 +1,10 @@
 import React from 'react';
 import '../hojasestilo/pantalla.css'
 
-function Pantalla () {
+function Pantalla ({input}) {
     return (
         <div className='pantalla'>
-
+            {input}
         </div>
     )
 }

@@ -6,7 +6,7 @@ html,body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: crimson;
+  background-color: rgb(31, 29, 29);
   box-sizing: border-box;
 }
 
